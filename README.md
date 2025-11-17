@@ -118,6 +118,17 @@ MMEM:DATA? "my.png"
 MMEM:DEL "my.png"
 ```
 
+#### The FieldFox also supports direct FTP access to its internal storage:
+
+Primary source: https://docs.keysight.com/kkbopen/how-can-i-transfer-data-from-a-fieldfox-to-a-remote-pc-831228017.html
+- Child source: [How To | Bulk File Transfers | FieldFox Handheld Analyzers | Keysight Technologies](https://www.youtube.com/watch?v=O4TE5LQBjWk)
+
+Just use any standard FTP client to connect to the FieldFox's IP address. The default credentials are usually:
+- Username: `anonymous`
+- Password: leave blank
+
+<img src="assets/Screenshot_2025-11-17_16-26-27.png" width="40%">
+
 ## Personal scripts
 
 | Script | Description |
