@@ -27,7 +27,7 @@ import argparse
 # Parse command line arguments
 parser = argparse.ArgumentParser(description="Capture screenshot from instrument")
 parser.add_argument('-i', '--ip', default='192.168.145', help='IP address of the instrument')
-parser.add_argument('-p', '--port', type=int, default=5052, help='Port number')
+parser.add_argument('-p', '--port', type=int, default=5025, help='Port number')
 parser.add_argument('-r', '--remote_filename', default=None, help='Remote file name')
 parser.add_argument('-l', '--local_filename', default=None, help='Local file name')
 args = parser.parse_args()
