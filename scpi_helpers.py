@@ -1,5 +1,27 @@
+"""
+scpi_helpers.py — SCPI socket helper utilities
+
+SCPI-Utils: a collection of small, focused utilities for interacting with
+SCPI-compliant instruments over TCP/IP. This module provides minimal, helper
+functions for sending SCPI commands and receiving ASCII or IEEE 488.2
+binary-block responses.
+
+Project: https://github.com/cyber-g/SCPI-Utils
+Author: Germain PHAM <cygerpham@free.fr>
+Copyright (C) 2025 Germain PHAM
+License: GNU General Public License v3.0
+
+Notes:
+- These helpers are intentionally small and synchronous. For production
+  or high-reliability use, add explicit timeouts, retries and robust
+  error handling as needed.
+- Binary block parsing follows the IEEE 488.2 '#<N><length>' convention.
+(https://fr.mathworks.com/matlabcentral/answers/1598789-what-is-the-data-format-used-by-readbinblock-and-writebinblock-functions-in-instrument-control-toolb)
+
+"""
+
 # ------------------
-# Low-level helpers
+# SCPI helpers
 # ------------------
 
 def send(sock, cmd):
