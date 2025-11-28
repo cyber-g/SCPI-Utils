@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SCPI Utils - Screenshot Capture Script
+SCPI Utils - Screenshot Capture Script (MMEM:STOR:IMAG)
 
 Project: https://github.com/cyber-g/SCPI-Utils
 
